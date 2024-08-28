@@ -11,6 +11,7 @@ import Header from './components/Header'
 
 const App = () => {
   return (
+    
     <BrowserRouter >
     <Header/>
     <Routes>
@@ -18,9 +19,9 @@ const App = () => {
       <Route path='/about' element={<About/>} />
       <Route path='/sign-up' element={<SignUp/>} />
       <Route path='/sign-in' element={<SignIn />} />
-      <Route path='/dashboard' element={<Dashboard/>} />
-      <Route path='/projects' element={<Projects/>} />
-      
+      <Route path='/dashboard' element={ <Dashboard/> } />
+      <Route path='/projects' element={ <Projects/> } />
+    
     </Routes>
     </BrowserRouter>
   )
